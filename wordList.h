@@ -8,8 +8,8 @@
 namespace Words
 {
 	using namespace std::string_view_literals;
-	inline std::vector list{ "Galaxy"sv, "Trading"sv, "Woodcutting"sv, "Exchange"sv
-	,"Combat"sv, "Dungeon"sv, "Diamond"sv };
+	inline std::vector list{ "galaxy"sv, "trading"sv, "woodcutting"sv, "exchange"sv
+	,"combat"sv, "dungeon"sv, "diamond"sv };
 
 	inline std::string_view getRandomWord()
 	{

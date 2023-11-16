@@ -17,8 +17,20 @@
 
 int main()
 {
-	
+	// Testing if written functions work according to plan so far
+	Session s1{ Words::getRandomWord() };
+	std::cout << s1.getRandomWord();
+	std::cout << '\n';
+	s1.convertWordtoVector();
+	s1.printDisplayVector();
+	s1.askUserInput();
+	s1.askUserInput();
+	s1.askUserInput();
+	s1.askUserInput();
+	std::cout << '\n';
+	s1.printTrackedLetters();
 
-	std::cout << "The word is: " << Words::getRandomWord();
+
+
 	return 0;
 }
